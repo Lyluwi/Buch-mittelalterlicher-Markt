@@ -1,0 +1,237 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Spielanleitung - </title>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+
+        <link rel="stylesheet" href="book.css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:500" rel="stylesheet" type="text/css">
+
+        <link rel="shortcut icon" href="favicon.png">
+
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme -->
+        
+
+        
+
+        <!-- Fetch Clipboard.js from CDN but have a local fallback -->
+        <script src="https://cdn.jsdelivr.net/clipboard.js/1.6.1/clipboard.min.js"></script>
+        <script>
+            if (typeof Clipboard == 'undefined') {
+                document.write(unescape("%3Cscript src='clipboard.min.js'%3E%3C/script%3E"));
+            }
+        </script>
+
+    </head>
+    <body class="light">
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { } 
+            if (theme === null || theme === undefined) { theme = 'light'; }
+            document.body.className = theme;
+            document.querySelector('html').className = theme;
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            document.querySelector('html').classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <ol class="chapter"><li><a href="01_Anleitung.html" class="active"><strong aria-hidden="true">1.</strong> Spielanleitung</a></li><li><a href="01_01_Spielplan.html"><strong aria-hidden="true">2.</strong> Spielplan</a></li><li><a href="02_markt.html"><strong aria-hidden="true">3.</strong> Der spätmittelalterliche Markt</a></li><li><a href="03_berufe.html"><strong aria-hidden="true">4.</strong> Berufe des Mittelalters</a></li><li><ol class="section"><li><a href="03_01_bader.html"><strong aria-hidden="true">4.1.</strong> Bader</a></li><li><a href="03_02_bauer.html"><strong aria-hidden="true">4.2.</strong> Bauer</a></li><li><a href="03_03_gerber.html"><strong aria-hidden="true">4.3.</strong> Gerber</a></li><li><a href="03_04_schmied.html"><strong aria-hidden="true">4.4.</strong> Schmied</a></li><li><a href="03_05_bäcker.html"><strong aria-hidden="true">4.5.</strong> Bäcker</a></li><li><a href="03_07_schreiber.html"><strong aria-hidden="true">4.6.</strong> Schreiber</a></li><li><a href="03_08_töpfer.html"><strong aria-hidden="true">4.7.</strong> Töpfer</a></li><li><a href="03_09_fernkaufmann.html"><strong aria-hidden="true">4.8.</strong> Fernkaufmann</a></li><li><a href="03_10_sattler.html"><strong aria-hidden="true">4.9.</strong> Sattler</a></li></ol></li><li><a href="04_quellen.html"><strong aria-hidden="true">5.</strong> Quellen</a></li></ol>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                
+                <div id="menu-bar" class="menu-bar">
+                    <div id="menu-bar-sticky-container">
+                        <div class="left-buttons">
+                            <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                                <i class="fa fa-bars"></i>
+                            </button>
+                            <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                                <i class="fa fa-paint-brush"></i>
+                            </button>
+                            <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                                <li role="none"><button role="menuitem" class="theme" id="light">Light <span class="default">(default)</span></button></li>
+                                <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                                <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                                <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                                <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                            </ul>
+                        </div>
+
+                        <h1 class="menu-title"></h1>
+
+                        <div class="right-buttons">
+                            <a href="print.html" title="Print this book" aria-label="Print this book">
+                                <i id="print-button" class="fa fa-print"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <a class="header" href="01_Anleitung.html#spiel-der-spätmittelalterliche-markt" id="spiel-der-spätmittelalterliche-markt"><h1>Spiel: Der spätmittelalterliche Markt</h1></a>
+<a class="header" href="01_Anleitung.html#ihr-braucht" id="ihr-braucht"><h3>Ihr braucht:</h3></a>
+<ul>
+<li>jeder eine Spielfigur</li>
+<li>einen Würfel</li>
+<li>einen Spielplan: * oder **   (*: 5 Berufe, **: 9 Berufe)</li>
+<li>ein Handy oder Tablett mit Internetzugang</li>
+<li>4 Einkaufszettel</li>
+<li>35 Frage- und Ereigniskarten (?!)</li>
+</ul>
+<a class="header" href="01_Anleitung.html#spielvorbereitung" id="spielvorbereitung"><h3>Spielvorbereitung:</h3></a>
+<ol>
+<li>Sortiere alle Karten mit dem gleichen Symbol auf je einen Stapel. Je nach dem für welchen Differenzierungsgrad * / ** ihr euch entschieden habt, habt ihr entweder 6 oder 10 Stapel.</li>
+<li>Steckt die Häuser und Marktstände zusammen und auf euer Spielbrett. In diesem Buch findet ihr einen Spielplan, der euch zeigt, wo welcher Stand hingehört.</li>
+<li>Stelle alle Spielfiguren auf den orangenen Spielstartpunkt.</li>
+<li>Jeder Spieler bekommt einen Einkaufszettel</li>
+</ol>
+<a class="header" href="01_Anleitung.html#spielablauf" id="spielablauf"><h3>Spielablauf:</h3></a>
+<p>Vor Begin des Spiels liest ein Mitspieler den Informationstext über den mittelalterlichen Markt  sowie zu den Berufen allgemein laut vor (oder lässt den Text digital vorlesen). Alle müssen gut zuhören, da während des Spiels Fragen zum Text auftauchen.
+Nun wird der Reihe nach gewürfelt.</p>
+<p>Ziel ist es, alle Besorgungen auf seinem Einkaufszettel zu erledigen und am schnellsten wieder zum Starpunkt zu gelangen. Dafür müsst ihr auf die roten Spezialfelder vor den Ständen gelangen und eine Frage zu diesem Beruf beantworten. Wenn ein Stand nicht auf eurem Einkaufszettel steht, müsst ihr zu diesem Beruf keine Frage beantworten.</p>
+<p>Die Reihenfolge, mit der ihr die Stände besucht und die Laufrichtung könnt ihr in jeder Runde selbst bestimmen.Während eines Spielzuges darf sich die Richtung jedoch nicht ändern.
+Wenn ihr eine Frage zu eurem besuchten Berufsstand richtig beantwortet habt, könnt ihr diesen auf eurem Einkaufszettel abharken.
+Beantwortet ihr die Frage jedoch falsch, ind eure Mitspieler an der Reihe. Erst in der nächsten Runde könnt ihr versuchen,eine weitere Frage zu beantworten.</p>
+<p>WICHTIG: Um die Fragen zu beantworten könnt ihr die Informationstexte zu den jeweiligen Berufen lesen (oder euch vorlesen lassen). Um eure Antworten zu überprüfen, müsst ihr die Fragekarten aufklappen.</p>
+<a class="header" href="01_Anleitung.html#achtung" id="achtung"><h3>Achtung:</h3></a>
+<p>Die blauen Felder sind gan normale Spielfelder. Gelangt ihr jedoch auf grüne Felder, so zieht ihr eine Frage-und Ereigniskarte (?!). Ihr müsst die euch gestellte Frage (zum MArkt) oder die Aktion ausführen</p>
+<a class="header" href="01_Anleitung.html#nach-dem-spiel" id="nach-dem-spiel"><h3>Nach dem Spiel</h3></a>
+<p>Habt ihr das Spiel beantwortet und alle Mitspieler sind am Startpunkt angelangt, so beantwortet ihr danach die beiligenden Aufgaben. Die Informationen, die ihr im Spiel gesammelt habt, können euch dabei helfen.</p>
+<a class="header" href="01_Anleitung.html#wichtig" id="wichtig"><h3>Wichtig:</h3></a>
+<p>Lest alle Texte zum Markt und zu den Berufen sowie Fragen und Aufforderungen laut vor (oder lasst sie euch vorlesen)!
+So bekommen alle Spieler die wichtigen Informationen</p>
+<pre><code>            Viel Spaß beim Spielen !
+</code></pre>
+<a class="header" href="01_Anleitung.html#bader---------img-srcbilderbaderstandpng-alt-" id="bader---------img-srcbilderbaderstandpng-alt-"><h6>Bader         <img src="./Bilder/baderstand.png" alt="" /></h6></a>
+<a class="header" href="01_Anleitung.html#bauer---------img-srcbilderbauernstandpng-alt-" id="bauer---------img-srcbilderbauernstandpng-alt-"><h6>Bauer         <img src="./Bilder/bauernstand.png" alt="" /></h6></a>
+<a class="header" href="01_Anleitung.html#gerber-------img-srcbildergerberstandpng-alt-" id="gerber-------img-srcbildergerberstandpng-alt-"><h6>Gerber       <img src="./Bilder/gerberstand.png" alt="" /></h6></a>
+<a class="header" href="01_Anleitung.html#schmied-------img-srcbilderschmiedstandpng-alt-" id="schmied-------img-srcbilderschmiedstandpng-alt-"><h6>Schmied       <img src="./Bilder/schmiedstand.png" alt="" /></h6></a>
+<a class="header" href="01_Anleitung.html#bäcker-------img-srcbilderbc3a4ckerstandpng-alt-" id="bäcker-------img-srcbilderbc3a4ckerstandpng-alt-"><h6>Bäcker       <img src="./Bilder/b%C3%A4ckerstand.png" alt="" /></h6></a>
+<a class="header" href="01_Anleitung.html#schreiber----img-srcbilderschreiberstandpng-alt-" id="schreiber----img-srcbilderschreiberstandpng-alt-"><h6>Schreiber    <img src="./Bilder/schreiberstand.png" alt="" /></h6></a>
+<a class="header" href="01_Anleitung.html#töpfer-------img-srcbildertc3b6pferstandpng-alt-" id="töpfer-------img-srcbildertc3b6pferstandpng-alt-"><h6>Töpfer       <img src="./Bilder/t%C3%B6pferstand.png" alt="" /></h6></a>
+<a class="header" href="01_Anleitung.html#fernkaufmann-----img-srcbilderfernkaufmannstandpng-alt-" id="fernkaufmann-----img-srcbilderfernkaufmannstandpng-alt-"><h6>Fernkaufmann     <img src="./Bilder/fernkaufmannstand.png" alt="" /></h6></a>
+<a class="header" href="01_Anleitung.html#sattler------img-srcbildersattlerstandpng-alt-" id="sattler------img-srcbildersattlerstandpng-alt-"><h6>Sattler      <img src="./Bilder/sattlerstand.png" alt="" /></h6></a>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                        
+
+                        
+                            <a rel="next" href="01_01_Spielplan.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+                        
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                
+
+                
+                    <a href="01_01_Spielplan.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+                
+            </nav>
+
+        </div>
+
+
+        <!-- Local fallback for Font Awesome -->
+        <script>
+            if (getComputedStyle(document.querySelector(".fa")).fontFamily !== "FontAwesome") {
+                var link = document.createElement('link');
+                link.rel = 'stylesheet';
+                link.type = 'text/css';
+                link.href = '_FontAwesome/css/font-awesome.css';
+                document.head.insertBefore(link, document.head.firstChild)
+            }
+        </script>
+
+        
+        <!-- Livereload script (if served using the cli tool) -->
+        <script type="text/javascript">
+            var socket = new WebSocket("ws://localhost:3001");
+            socket.onmessage = function (event) {
+                if (event.data === "reload") {
+                    socket.close();
+                    location.reload(true); // force reload from server (not from cache)
+                }
+            };
+
+            window.onbeforeunload = function() {
+                socket.close();
+            }
+        </script>
+        
+
+        
+
+        
+
+        
+
+        <script src="highlight.js"></script>
+        <script src="book.js"></script>
+
+        <!-- Custom JS script -->
+        
+
+    </body>
+</html>
