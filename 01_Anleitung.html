@@ -1,6 +1,7 @@
 <!DOCTYPE HTML>
-<html lang="en">
+<html lang="en" class="sidebar-visible">
     <head>
+        <!-- Book generated using mdBook -->
         <meta charset="UTF-8">
         <title>Spielanleitung - </title>
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
@@ -38,6 +39,14 @@
             }
         </script>
 
+        <noscript>
+            <style type="text/css">
+                .javascript-only {
+                    display: none;
+                }
+            </style>
+        </noscript>
+
     </head>
     <body class="light">
         <!-- Work around some values being stored in localStorage wrapped in quotes -->
@@ -67,12 +76,14 @@
 
         <!-- Hide / unhide sidebar before it is displayed -->
         <script type="text/javascript">
+            var html = document.querySelector('html');
             var sidebar = 'hidden';
             if (document.body.clientWidth >= 1080) {
                 try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
                 sidebar = sidebar || 'visible';
             }
-            document.querySelector('html').classList.add("sidebar-" + sidebar);
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
         </script>
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
@@ -85,7 +96,7 @@
                 
                 <div id="menu-bar" class="menu-bar">
                     <div id="menu-bar-sticky-container">
-                        <div class="left-buttons">
+                        <div class="left-buttons javascript-only">
                             <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
                                 <i class="fa fa-bars"></i>
                             </button>
@@ -99,9 +110,14 @@
                                 <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
                                 <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
                             </ul>
+                            
+                            <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                                <i class="fa fa-search"></i>
+                            </button>
+                            
                         </div>
 
-                        <h1 class="menu-title"></h1>
+                        <h1 class="menu-title"></h1> 
 
                         <div class="right-buttons">
                             <a href="print.html" title="Print this book" aria-label="Print this book">
@@ -110,6 +126,17 @@
                         </div>
                     </div>
                 </div>
+
+                
+                <div id="searchbar-outer" class="searchbar-outer">
+                    <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                </div>
+                <div id="searchresults-outer" class="searchresults-outer">
+                    <div class="searchresults-header" id="searchresults-header"></div>
+                    <ul id="searchresults">
+                    </ul>
+                </div>
+                
 
                 <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
                 <script type="text/javascript">
@@ -135,28 +162,27 @@
 </ul>
 <a class="header" href="01_Anleitung.html#spielvorbereitung" id="spielvorbereitung"><h3>Spielvorbereitung:</h3></a>
 <ol>
-<li>Sortiert alle Karten mit dem gleichen Symbol auf je einen Stapel. Je nach dem für welchen Differenzierungsgrad * / ** ihr euch entschieden habt, habt ihr entweder 6 oder 10 Stapel.</li>
-<li>Steckt die Häuser und Marktstände zusammen und auf euer Spielbrett. In diesem Buch findet ihr einen Spielplan, der euch zeigt, wo welcher Stand hingehört.</li>
+<li>Sortiert alle Karten mit dem gleichen Symbol auf je einen Stapel. Je nachdem für welchen Differenzierungsgrad * / ** ihr euch entschieden habt, habt ihr entweder 6 oder 10 Stapel.</li>
+<li>Steckt die Häuser und Marktstände zusammen und stellt sie auf euer Spielbrett. In diesem Buch findet ihr einen Spielplan, der euch zeigt, wo welcher Stand hingehört.</li>
 <li>Stellt alle Spielfiguren auf den orangenen Spielstartpunkt.</li>
 <li>Jeder Spieler bekommt einen Einkaufszettel</li>
 </ol>
 <a class="header" href="01_Anleitung.html#spielablauf" id="spielablauf"><h3>Spielablauf:</h3></a>
-<p>Vor Begin des Spiels liest ein Mitspieler den Informationstext über den mittelalterlichen Markt sowie den kurzen Text über die Berufe (allgemeiner Berufstext) laut vor (oder lässt den Text digital vorlesen). Alle müssen gut zuhören, da während des Spiels Fragen zum Text auftauchen.
+<p>Vor Beginn des Spiels liest ein Mitspieler den Informationstext über den mittelalterlichen Markt sowie den kurzen Text über die Berufe (allgemeiner Berufstext) laut vor (oder lässt den Text digital vorlesen). Alle müssen gut zuhören, da während des Spiels Fragen zum Text auftauchen.
 Nun wird der Reihe nach gewürfelt.</p>
-<p>Ziel ist es, alle Besorgungen auf euren Einkaufszettel zu erledigen und am schnellsten wieder zum Starpunkt zu gelangen. Dafür müsst ihr auf die roten Spezialfelder vor den Ständen gelangen und eine Frage zu diesem Beruf beantworten. Wenn ein Stand nicht auf eurem Einkaufszettel steht, müsst ihr zu diesem Beruf keine Frage beantworten.</p>
+<p>Ziel ist es, alle Besorgungen auf euren Einkaufszettel zu erledigen und am schnellsten wieder zum Startpunkt zu gelangen. Dafür müsst ihr auf die roten Spezialfelder vor den Ständen gelangen und eine Frage zu diesem Beruf beantworten. Wenn ein Stand nicht auf eurem Einkaufszettel steht, müsst ihr zu diesem Beruf keine Frage beantworten.</p>
 <p>Die Reihenfolge, mit der ihr die Stände besucht und die Laufrichtung könnt ihr in jeder Runde selbst bestimmen. Während eines Spielzuges darf sich die Richtung jedoch nicht ändern.
 Wenn ihr eine Frage zu eurem besuchten Berufsstand richtig beantwortet habt, könnt ihr diesen auf eurem Einkaufszettel abhaken.
 Beantwortet ihr die Frage jedoch falsch, sind eure Mitspieler an der Reihe. Erst in der nächsten Runde könnt ihr versuchen,eine weitere Frage zu beantworten.</p>
 <p>WICHTIG: Um die Fragen zu beantworten könnt ihr die Informationstexte zu den jeweiligen Berufen lesen (oder euch vorlesen lassen). Um eure Antworten zu überprüfen, müsst ihr die Fragekarten aufklappen.</p>
 <a class="header" href="01_Anleitung.html#achtung" id="achtung"><h3>Achtung:</h3></a>
-<p>Die blauen Felder sind ganz normale Spielfelder. Gelangt ihr jedoch auf grüne Felder, so zieht ihr eine Frage-und Ereigniskarte (?!). Ihr müsst die euch gestellte Frage (zum Markt)oder die Aktion ausführen</p>
-<a class="header" href="01_Anleitung.html#nach-dem-spiel" id="nach-dem-spiel"><h3>Nach dem Spiel</h3></a>
-<p>Habt ihr das Spiel beendet und alle Mitspieler sind am Startpunkt angelangt, so beantwortet ihr danach die beiligenden Aufgaben. Die Informationen, die ihr im Spiel gesammelt habt, können euch dabei helfen.</p>
+<p>Die blauen Felder sind ganz normale Spielfelder. Gelangt ihr jedoch auf grüne Felder, so zieht ihr eine Frage-und Ereigniskarte (?!). Ihr müsst die euch gestellte Frage (zum Markt)oder die Aktion ausführen.</p>
+<a class="header" href="01_Anleitung.html#nach-dem-spiel" id="nach-dem-spiel"><h3>Nach dem Spiel:</h3></a>
+<p>Habt ihr das Spiel beendet und alle Mitspieler sind am Startpunkt angelangt, so beantwortet ihr danach die beiliegenden Aufgaben. Die Informationen, die ihr im Spiel gesammelt habt, können euch dabei helfen.</p>
 <a class="header" href="01_Anleitung.html#wichtig" id="wichtig"><h3>Wichtig:</h3></a>
 <p>Lest alle Texte zum Markt und zu den Berufen sowie Fragen und Aufforderungen laut vor (oder lasst sie euch vorlesen)!
-So erfahren alle Spieler die wichtigen Informationen</p>
-<pre><code>            Viel Spaß beim Spielen !
-</code></pre>
+So erfahren alle Spieler die wichtigen Informationen.</p>
+<p><center> Viel Spaß beim Spielen !</center></p>
 <a class="header" href="01_Anleitung.html#bader---------img-srcbilderbaderstandpng-alt-" id="bader---------img-srcbilderbaderstandpng-alt-"><h6>Bader         <img src="./Bilder/baderstand.png" alt="" /></h6></a>
 <a class="header" href="01_Anleitung.html#bauer---------img-srcbilderbauernstandpng-alt-" id="bauer---------img-srcbilderbauernstandpng-alt-"><h6>Bauer         <img src="./Bilder/bauernstand.png" alt="" /></h6></a>
 <a class="header" href="01_Anleitung.html#gerber-------img-srcbildergerberstandpng-alt-" id="gerber-------img-srcbildergerberstandpng-alt-"><h6>Gerber       <img src="./Bilder/gerberstand.png" alt="" /></h6></a>
@@ -212,6 +238,15 @@ So erfahren alle Spieler die wichtigen Informationen</p>
 
         
 
+        
+
+        
+        <script src="searchindex.js" type="text/javascript" charset="utf-8"></script>
+        
+        
+        <script src="elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="searcher.js" type="text/javascript" charset="utf-8"></script>
         
 
         

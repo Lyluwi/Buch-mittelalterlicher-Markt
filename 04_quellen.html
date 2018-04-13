@@ -1,6 +1,7 @@
 <!DOCTYPE HTML>
-<html lang="en">
+<html lang="en" class="sidebar-visible">
     <head>
+        <!-- Book generated using mdBook -->
         <meta charset="UTF-8">
         <title>Quellen - </title>
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
@@ -38,6 +39,14 @@
             }
         </script>
 
+        <noscript>
+            <style type="text/css">
+                .javascript-only {
+                    display: none;
+                }
+            </style>
+        </noscript>
+
     </head>
     <body class="light">
         <!-- Work around some values being stored in localStorage wrapped in quotes -->
@@ -67,12 +76,14 @@
 
         <!-- Hide / unhide sidebar before it is displayed -->
         <script type="text/javascript">
+            var html = document.querySelector('html');
             var sidebar = 'hidden';
             if (document.body.clientWidth >= 1080) {
                 try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
                 sidebar = sidebar || 'visible';
             }
-            document.querySelector('html').classList.add("sidebar-" + sidebar);
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
         </script>
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
@@ -85,7 +96,7 @@
                 
                 <div id="menu-bar" class="menu-bar">
                     <div id="menu-bar-sticky-container">
-                        <div class="left-buttons">
+                        <div class="left-buttons javascript-only">
                             <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
                                 <i class="fa fa-bars"></i>
                             </button>
@@ -99,9 +110,14 @@
                                 <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
                                 <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
                             </ul>
+                            
+                            <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                                <i class="fa fa-search"></i>
+                            </button>
+                            
                         </div>
 
-                        <h1 class="menu-title"></h1>
+                        <h1 class="menu-title"></h1> 
 
                         <div class="right-buttons">
                             <a href="print.html" title="Print this book" aria-label="Print this book">
@@ -110,6 +126,17 @@
                         </div>
                     </div>
                 </div>
+
+                
+                <div id="searchbar-outer" class="searchbar-outer">
+                    <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                </div>
+                <div id="searchresults-outer" class="searchresults-outer">
+                    <div class="searchresults-header" id="searchresults-header"></div>
+                    <ul id="searchresults">
+                    </ul>
+                </div>
+                
 
                 <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
                 <script type="text/javascript">
@@ -124,24 +151,24 @@
                     <main>
                         <a class="header" href="04_quellen.html#quellen" id="quellen"><h2>Quellen</h2></a>
 <a class="header" href="04_quellen.html#quellen-für-den-mittelalterlichen-markt" id="quellen-für-den-mittelalterlichen-markt"><h4>Quellen für den mittelalterlichen Markt</h4></a>
-<a class="header" href="04_quellen.html#--vgl-melville-g-staub-m-hrsg-2008-enzyklopädie-des-mittelalters-band-2-darmstadt-s-270f" id="--vgl-melville-g-staub-m-hrsg-2008-enzyklopädie-des-mittelalters-band-2-darmstadt-s-270f"><h6>- vgl. Melville, G. Staub, M. [HrsG]: (2008) Enzyklopädie des Mittelalters Band 2. Darmstadt. S. 270f</h6></a>
-<a class="header" href="04_quellen.html#--vgl-isenmann-e-2014-die-deutsche-stadt-im-mittelalter-1150-1550-stadttgestalt-recht-verfassung-stadtregiment-kirche-gesellschaft-wirtschaft-2-aufl-köln-ua-s38-127" id="--vgl-isenmann-e-2014-die-deutsche-stadt-im-mittelalter-1150-1550-stadttgestalt-recht-verfassung-stadtregiment-kirche-gesellschaft-wirtschaft-2-aufl-köln-ua-s38-127"><h6>- vgl. Isenmann, E. (2014). Die deutsche Stadt im Mittelalter 1150-1550. Stadttgestalt, Recht, Verfassung, Stadtregiment, Kirche, Gesellschaft, Wirtschaft. 2. Aufl. Köln u.a. S.38-127</h6></a>
-<a class="header" href="04_quellen.html#--vgl-fuhrmann-b-2014-hinter-festen-mauern-europas-städte-im-mittelalter-darmstadt-s-35" id="--vgl-fuhrmann-b-2014-hinter-festen-mauern-europas-städte-im-mittelalter-darmstadt-s-35"><h6>- vgl. Fuhrmann, B. (2014): Hinter festen Mauern. Europas Städte im Mittelalter. Darmstadt. S. 35</h6></a>
+<a class="header" href="04_quellen.html#a--vgl-melville-g-staub-m-hrsg-2008-enzyklopädie-des-mittelalters-band-2-darmstadt-s-270f" id="a--vgl-melville-g-staub-m-hrsg-2008-enzyklopädie-des-mittelalters-band-2-darmstadt-s-270f"><h6>- vgl. Melville, G. Staub, M. [HrsG]: (2008) Enzyklopädie des Mittelalters Band 2. Darmstadt. S. 270f</h6></a>
+<a class="header" href="04_quellen.html#a--vgl-isenmann-e-2014-die-deutsche-stadt-im-mittelalter-1150-1550-stadttgestalt-recht-verfassung-stadtregiment-kirche-gesellschaft-wirtschaft-2-aufl-köln-ua-s38-127" id="a--vgl-isenmann-e-2014-die-deutsche-stadt-im-mittelalter-1150-1550-stadttgestalt-recht-verfassung-stadtregiment-kirche-gesellschaft-wirtschaft-2-aufl-köln-ua-s38-127"><h6>- vgl. Isenmann, E. (2014). Die deutsche Stadt im Mittelalter 1150-1550. Stadttgestalt, Recht, Verfassung, Stadtregiment, Kirche, Gesellschaft, Wirtschaft. 2. Aufl. Köln u.a. S.38-127</h6></a>
+<a class="header" href="04_quellen.html#a--vgl-fuhrmann-b-2014-hinter-festen-mauern-europas-städte-im-mittelalter-darmstadt-s-35" id="a--vgl-fuhrmann-b-2014-hinter-festen-mauern-europas-städte-im-mittelalter-darmstadt-s-35"><h6>- vgl. Fuhrmann, B. (2014): Hinter festen Mauern. Europas Städte im Mittelalter. Darmstadt. S. 35</h6></a>
 <a class="header" href="04_quellen.html#quellen-für-die-berufe-des-mittelalters" id="quellen-für-die-berufe-des-mittelalters"><h4>Quellen für die Berufe des Mittelalters</h4></a>
-<a class="header" href="04_quellen.html#--vgl-reinhold-reith-2012-köstlich-oder-schlecht-wirtschaftliche-und-soziale-entwicklung-des-handwerks-in-sauer-c-hrsg-handwerk-im-mittelalter-darmstadt-2012-s-15ff" id="--vgl-reinhold-reith-2012-köstlich-oder-schlecht-wirtschaftliche-und-soziale-entwicklung-des-handwerks-in-sauer-c-hrsg-handwerk-im-mittelalter-darmstadt-2012-s-15ff"><h6>- vgl. Reinhold Reith (2012): &quot;köstlich oder schlecht&quot;. Wirtschaftliche und soziale Entwicklung des Handwerks. In: Sauer, C. [HrsG]: Handwerk im Mittelalter. Darmstadt. 2012. S. 15ff</h6></a>
-<a class="header" href="04_quellen.html#--vgl-httpdemittelalterwikiacomwikizunft-gesehen-am-01032018-um-1553" id="--vgl-httpdemittelalterwikiacomwikizunft-gesehen-am-01032018-um-1553"><h6>- vgl. http://de.mittelalter.wikia.com/wiki/Zunft, gesehen am 01.03.2018 um 15:53</h6></a>
-<a class="header" href="04_quellen.html#--vgl-brunner-k-2012-kleine-kulturgeschichte-des-mittelalters-münchen-s-152" id="--vgl-brunner-k-2012-kleine-kulturgeschichte-des-mittelalters-münchen-s-152"><h6>- vgl. Brunner, K. (2012). Kleine Kulturgeschichte des Mittelalters. München. S. 152</h6></a>
-<a class="header" href="04_quellen.html#--vglmelville-g-staub-m-hrsg-2008-s199-268" id="--vglmelville-g-staub-m-hrsg-2008-s199-268"><h6>- vgl.Melville, G. Staub, M. [HrsG]: (2008). S.199-268</h6></a>
-<a class="header" href="04_quellen.html#--vgl-sauer-c-2012-papier-ware-informationsträger-und-kommunikationsmittel-in-sauer-c-hrsg-handwerk-im-mittelalter-darmstadt-2012" id="--vgl-sauer-c-2012-papier-ware-informationsträger-und-kommunikationsmittel-in-sauer-c-hrsg-handwerk-im-mittelalter-darmstadt-2012"><h6>- vgl. Sauer, C. (2012): Papier. Ware, Informationsträger und Kommunikationsmittel. In: Sauer, C. [HrsG]: Handwerk im Mittelalter. Darmstadt. 2012</h6></a>
-<a class="header" href="04_quellen.html#--vgl-kettemann-o-sattler-und-riemer-in-reith-r-hrsg-das-alte-handwerk-vom-bader-bis-zinngießer-münchen-2008-s182ff" id="--vgl-kettemann-o-sattler-und-riemer-in-reith-r-hrsg-das-alte-handwerk-vom-bader-bis-zinngießer-münchen-2008-s182ff"><h6>- vgl. Kettemann, O. Sattler und Riemer. In. Reith, R. [HrsG]. Das alte Handwerk. Vom Bader bis Zinngießer. München 2008, S.182ff.</h6></a>
-<a class="header" href="04_quellen.html#--vgl-göttmann-f-bäcker-in-reith-r-hrsg-das-alte-handwerk-vom-bader-bis-zinngießer-münchen-2008-s23ff" id="--vgl-göttmann-f-bäcker-in-reith-r-hrsg-das-alte-handwerk-vom-bader-bis-zinngießer-münchen-2008-s23ff"><h6>- vgl. Göttmann, F. Bäcker. In: Reith, R. [HrsG]. Das alte Handwerk. Vom Bader bis Zinngießer. München 2008, S.23ff.</h6></a>
-<a class="header" href="04_quellen.html#--sander-s-bader-und-barbiere--in-reith-r-hrsg-das-alte-handwerk-vom-bader-bis-zinngießer-münchen-2008-s23ff" id="--sander-s-bader-und-barbiere--in-reith-r-hrsg-das-alte-handwerk-vom-bader-bis-zinngießer-münchen-2008-s23ff"><h6>- Sander, S. Bader und Barbiere.  In: Reith, R. [HrsG]. Das alte Handwerk. Vom Bader bis Zinngießer. München 2008, S.23ff.</h6></a>
-<a class="header" href="04_quellen.html#--vgl-kuntz-a-hufschmied-sattler-und-riemer-in-reith-r-hrsg-das-alte-handwerk-vom-bader-bis-zinngießer-münchen-2008-s111" id="--vgl-kuntz-a-hufschmied-sattler-und-riemer-in-reith-r-hrsg-das-alte-handwerk-vom-bader-bis-zinngießer-münchen-2008-s111"><h6>- vgl. Kuntz, A. Hufschmied. Sattler und Riemer. In. Reith, R. [HrsG]. Das alte Handwerk. Vom Bader bis Zinngießer. München 2008, S.111</h6></a>
-<a class="header" href="04_quellen.html#--vgl--schürer-r-gold--und-silberschmied-in-reith-r-hrsg-das-alte-handwerk-vom-bader-bis-zinngießer-münchen-2008-s101f" id="--vgl--schürer-r-gold--und-silberschmied-in-reith-r-hrsg-das-alte-handwerk-vom-bader-bis-zinngießer-münchen-2008-s101f"><h6>- vgl.  Schürer, R. Gold- und Silberschmied. In. Reith, R. [HrsG]. Das alte Handwerk. Vom Bader bis Zinngießer. München 2008, S.101f</h6></a>
-<a class="header" href="04_quellen.html#--vgl-göttmann-f-kupfer--und-kupferhammerschmiedin-reith-r-hrsg-das-alte-handwerk-vom-bader-bis-zinngießer-münchen-2008-s135ff" id="--vgl-göttmann-f-kupfer--und-kupferhammerschmiedin-reith-r-hrsg-das-alte-handwerk-vom-bader-bis-zinngießer-münchen-2008-s135ff"><h6>- vgl. Göttmann, F. Kupfer- und Kupferhammerschmied.In. Reith, R. [HrsG]. Das alte Handwerk. Vom Bader bis Zinngießer. München 2008, S.135ff</h6></a>
-<a class="header" href="04_quellen.html#--vgl-klose-d-ladewig-m-hrsg-2009-freiheit-im-mittelalter-am-beispiel-der-stadt-potsdam-s-90" id="--vgl-klose-d-ladewig-m-hrsg-2009-freiheit-im-mittelalter-am-beispiel-der-stadt-potsdam-s-90"><h6>- vgl. Klose, D., Ladewig, M. [HrsG] (2009). Freiheit im Mittelalter am Beispiel der Stadt. Potsdam, S. 90</h6></a>
-<a class="header" href="04_quellen.html#--vgl-gunkel-c-joch-der-sklaverei-in-großbongardt-a-saltzwedel-j-hrsg-leben-im-mittelalter-der-alltag-von-rittern-mönchen-bauern-und-kaufleuten-münchen-2014-s-101f" id="--vgl-gunkel-c-joch-der-sklaverei-in-großbongardt-a-saltzwedel-j-hrsg-leben-im-mittelalter-der-alltag-von-rittern-mönchen-bauern-und-kaufleuten-münchen-2014-s-101f"><h6>- vgl. Gunkel, C. Joch der Sklaverei. In: Großbongardt, A., Saltzwedel, J. [HrsG]. Leben im Mittelalter. Der Alltag von Rittern, Mönchen, Bauern und Kaufleuten. München 2014, S. 101f.</h6></a>
-<a class="header" href="04_quellen.html#--vgl--httpswwwzdfdedokumentationmomente-der-geschichtedas-leben-der-bauern-im-mittelalter-102html-gesehen-am-30032018-um-1046-uhr" id="--vgl--httpswwwzdfdedokumentationmomente-der-geschichtedas-leben-der-bauern-im-mittelalter-102html-gesehen-am-30032018-um-1046-uhr"><h6>- vgl.  https://www.zdf.de/dokumentation/momente-der-geschichte/das-leben-der-bauern-im-mittelalter-102.html, gesehen am 30.03.2018 um 10:46 Uhr</h6></a>
+<a class="header" href="04_quellen.html#a--vgl-reinhold-reith-2012-köstlich-oder-schlecht-wirtschaftliche-und-soziale-entwicklung-des-handwerks-in-sauer-c-hrsg-handwerk-im-mittelalter-darmstadt-2012-s-15ff" id="a--vgl-reinhold-reith-2012-köstlich-oder-schlecht-wirtschaftliche-und-soziale-entwicklung-des-handwerks-in-sauer-c-hrsg-handwerk-im-mittelalter-darmstadt-2012-s-15ff"><h6>- vgl. Reinhold Reith (2012): &quot;köstlich oder schlecht&quot;. Wirtschaftliche und soziale Entwicklung des Handwerks. In: Sauer, C. [HrsG]: Handwerk im Mittelalter. Darmstadt. 2012. S. 15ff</h6></a>
+<a class="header" href="04_quellen.html#a--vgl-httpdemittelalterwikiacomwikizunft-gesehen-am-01032018-um-1553" id="a--vgl-httpdemittelalterwikiacomwikizunft-gesehen-am-01032018-um-1553"><h6>- vgl. http://de.mittelalter.wikia.com/wiki/Zunft, gesehen am 01.03.2018 um 15:53</h6></a>
+<a class="header" href="04_quellen.html#a--vgl-brunner-k-2012-kleine-kulturgeschichte-des-mittelalters-münchen-s-152" id="a--vgl-brunner-k-2012-kleine-kulturgeschichte-des-mittelalters-münchen-s-152"><h6>- vgl. Brunner, K. (2012). Kleine Kulturgeschichte des Mittelalters. München. S. 152</h6></a>
+<a class="header" href="04_quellen.html#a--vglmelville-g-staub-m-hrsg-2008-s199-268" id="a--vglmelville-g-staub-m-hrsg-2008-s199-268"><h6>- vgl.Melville, G. Staub, M. [HrsG]: (2008). S.199-268</h6></a>
+<a class="header" href="04_quellen.html#a--vgl-sauer-c-2012-papier-ware-informationsträger-und-kommunikationsmittel-in-sauer-c-hrsg-handwerk-im-mittelalter-darmstadt-2012" id="a--vgl-sauer-c-2012-papier-ware-informationsträger-und-kommunikationsmittel-in-sauer-c-hrsg-handwerk-im-mittelalter-darmstadt-2012"><h6>- vgl. Sauer, C. (2012): Papier. Ware, Informationsträger und Kommunikationsmittel. In: Sauer, C. [HrsG]: Handwerk im Mittelalter. Darmstadt. 2012</h6></a>
+<a class="header" href="04_quellen.html#a--vgl-kettemann-o-sattler-und-riemer-in-reith-r-hrsg-das-alte-handwerk-vom-bader-bis-zinngießer-münchen-2008-s182ff" id="a--vgl-kettemann-o-sattler-und-riemer-in-reith-r-hrsg-das-alte-handwerk-vom-bader-bis-zinngießer-münchen-2008-s182ff"><h6>- vgl. Kettemann, O. Sattler und Riemer. In. Reith, R. [HrsG]. Das alte Handwerk. Vom Bader bis Zinngießer. München 2008, S.182ff.</h6></a>
+<a class="header" href="04_quellen.html#a--vgl-göttmann-f-bäcker-in-reith-r-hrsg-das-alte-handwerk-vom-bader-bis-zinngießer-münchen-2008-s23ff" id="a--vgl-göttmann-f-bäcker-in-reith-r-hrsg-das-alte-handwerk-vom-bader-bis-zinngießer-münchen-2008-s23ff"><h6>- vgl. Göttmann, F. Bäcker. In: Reith, R. [HrsG]. Das alte Handwerk. Vom Bader bis Zinngießer. München 2008, S.23ff.</h6></a>
+<a class="header" href="04_quellen.html#a--sander-s-bader-und-barbiere--in-reith-r-hrsg-das-alte-handwerk-vom-bader-bis-zinngießer-münchen-2008-s23ff" id="a--sander-s-bader-und-barbiere--in-reith-r-hrsg-das-alte-handwerk-vom-bader-bis-zinngießer-münchen-2008-s23ff"><h6>- Sander, S. Bader und Barbiere.  In: Reith, R. [HrsG]. Das alte Handwerk. Vom Bader bis Zinngießer. München 2008, S.23ff.</h6></a>
+<a class="header" href="04_quellen.html#a--vgl-kuntz-a-hufschmied-sattler-und-riemer-in-reith-r-hrsg-das-alte-handwerk-vom-bader-bis-zinngießer-münchen-2008-s111" id="a--vgl-kuntz-a-hufschmied-sattler-und-riemer-in-reith-r-hrsg-das-alte-handwerk-vom-bader-bis-zinngießer-münchen-2008-s111"><h6>- vgl. Kuntz, A. Hufschmied. Sattler und Riemer. In. Reith, R. [HrsG]. Das alte Handwerk. Vom Bader bis Zinngießer. München 2008, S.111</h6></a>
+<a class="header" href="04_quellen.html#a--vgl--schürer-r-gold--und-silberschmied-in-reith-r-hrsg-das-alte-handwerk-vom-bader-bis-zinngießer-münchen-2008-s101f" id="a--vgl--schürer-r-gold--und-silberschmied-in-reith-r-hrsg-das-alte-handwerk-vom-bader-bis-zinngießer-münchen-2008-s101f"><h6>- vgl.  Schürer, R. Gold- und Silberschmied. In. Reith, R. [HrsG]. Das alte Handwerk. Vom Bader bis Zinngießer. München 2008, S.101f</h6></a>
+<a class="header" href="04_quellen.html#a--vgl-göttmann-f-kupfer--und-kupferhammerschmiedin-reith-r-hrsg-das-alte-handwerk-vom-bader-bis-zinngießer-münchen-2008-s135ff" id="a--vgl-göttmann-f-kupfer--und-kupferhammerschmiedin-reith-r-hrsg-das-alte-handwerk-vom-bader-bis-zinngießer-münchen-2008-s135ff"><h6>- vgl. Göttmann, F. Kupfer- und Kupferhammerschmied.In. Reith, R. [HrsG]. Das alte Handwerk. Vom Bader bis Zinngießer. München 2008, S.135ff</h6></a>
+<a class="header" href="04_quellen.html#a--vgl-klose-d-ladewig-m-hrsg-2009-freiheit-im-mittelalter-am-beispiel-der-stadt-potsdam-s-90" id="a--vgl-klose-d-ladewig-m-hrsg-2009-freiheit-im-mittelalter-am-beispiel-der-stadt-potsdam-s-90"><h6>- vgl. Klose, D., Ladewig, M. [HrsG] (2009). Freiheit im Mittelalter am Beispiel der Stadt. Potsdam, S. 90</h6></a>
+<a class="header" href="04_quellen.html#a--vgl-gunkel-c-joch-der-sklaverei-in-großbongardt-a-saltzwedel-j-hrsg-leben-im-mittelalter-der-alltag-von-rittern-mönchen-bauern-und-kaufleuten-münchen-2014-s-101f" id="a--vgl-gunkel-c-joch-der-sklaverei-in-großbongardt-a-saltzwedel-j-hrsg-leben-im-mittelalter-der-alltag-von-rittern-mönchen-bauern-und-kaufleuten-münchen-2014-s-101f"><h6>- vgl. Gunkel, C. Joch der Sklaverei. In: Großbongardt, A., Saltzwedel, J. [HrsG]. Leben im Mittelalter. Der Alltag von Rittern, Mönchen, Bauern und Kaufleuten. München 2014, S. 101f.</h6></a>
+<a class="header" href="04_quellen.html#a--vgl--httpswwwzdfdedokumentationmomente-der-geschichtedas-leben-der-bauern-im-mittelalter-102html-gesehen-am-30032018-um-1046-uhr" id="a--vgl--httpswwwzdfdedokumentationmomente-der-geschichtedas-leben-der-bauern-im-mittelalter-102html-gesehen-am-30032018-um-1046-uhr"><h6>- vgl.  https://www.zdf.de/dokumentation/momente-der-geschichte/das-leben-der-bauern-im-mittelalter-102.html, gesehen am 30.03.2018 um 10:46 Uhr</h6></a>
 
                     </main>
 
@@ -188,6 +215,15 @@
 
         
 
+        
+
+        
+        <script src="searchindex.js" type="text/javascript" charset="utf-8"></script>
+        
+        
+        <script src="elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="searcher.js" type="text/javascript" charset="utf-8"></script>
         
 
         
