@@ -19,7 +19,7 @@
 Vor Begin des Spiels liest ein Mitspieler den Informationstext über den mittelalterlichen Markt sowie den kurzen Text über die Berufe (allgemeiner Berufstext) laut vor (oder lässt den Text digital vorlesen). Alle müssen gut zuhören, da während des Spiels Fragen zum Text auftauchen.
 Nun wird der Reihe nach gewürfelt.
 
-Ziel ist es, alle Besorgungen auf euren Einkaufszettel zu erledigen und am schnellsten wieder zum Starpunkt zu gelangen. Dafür müsst ihr auf die roten Spezialfelder vor den Ständen gelangen und eine Frage zu diesem Beruf beantworten. Wenn ein Stand nicht auf eurem Einkaufszettel steht, müsst ihr zu diesem Beruf keine Frage beantworten.
+Ziel ist es, alle Besorgungen auf euren Einkaufszettel zu erledigen und am schnellsten wieder zum Startpunkt zu gelangen. Dafür müsst ihr auf die roten Spezialfelder vor den Ständen gelangen und eine Frage zu diesem Beruf beantworten. Wenn ein Stand nicht auf eurem Einkaufszettel steht, müsst ihr zu diesem Beruf keine Frage beantworten.
 
 Die Reihenfolge, mit der ihr die Stände besucht und die Laufrichtung könnt ihr in jeder Runde selbst bestimmen. Während eines Spielzuges darf sich die Richtung jedoch nicht ändern.
 Wenn ihr eine Frage zu eurem besuchten Berufsstand richtig beantwortet habt, könnt ihr diesen auf eurem Einkaufszettel abhaken.
@@ -38,7 +38,7 @@ Habt ihr das Spiel beendet und alle Mitspieler sind am Startpunkt angelangt, so 
 Lest alle Texte zum Markt und zu den Berufen sowie Fragen und Aufforderungen laut vor (oder lasst sie euch vorlesen)! 
 So erfahren alle Spieler die wichtigen Informationen
 
-                Viel Spaß beim Spielen !
+<center> Viel Spaß beim Spielen !</center>
 
 
 ###### Bader         ![](./Bilder/baderstand.png)
