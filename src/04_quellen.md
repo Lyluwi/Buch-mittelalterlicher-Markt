@@ -15,4 +15,8 @@
 ###### - vgl. Göttmann, F. Bäcker. In: Reith, R. [HrsG]. Das alte Handwerk. Vom Bader bis Zinngießer. München 2008, S.23ff.
 ###### - Sander, S. Bader und Barbiere.  In: Reith, R. [HrsG]. Das alte Handwerk. Vom Bader bis Zinngießer. München 2008, S.23ff.
 ###### - vgl. Kuntz, A. Hufschmied. Sattler und Riemer. In. Reith, R. [HrsG]. Das alte Handwerk. Vom Bader bis Zinngießer. München 2008, S.111
-###### - vgl. 
+###### - vgl.  Schürer, R. Gold- und Silberschmied. In. Reith, R. [HrsG]. Das alte Handwerk. Vom Bader bis Zinngießer. München 2008, S.101f
+###### - vgl. Göttmann, F. Kupfer- und Kupferhammerschmied.In. Reith, R. [HrsG]. Das alte Handwerk. Vom Bader bis Zinngießer. München 2008, S.135ff
+###### - vgl. Klose, D., Ladewig, M. [HrsG] (2009). Freiheit im Mittelalter am Beispiel der Stadt. Potsdam, S. 90
+###### - vgl. Gunkel, C. Joch der Sklaverei. In: Großbongardt, A., Saltzwedel, J. [HrsG]. Leben im Mittelalter. Der Alltag von Rittern, Mönchen, Bauern und Kaufleuten. München 2014, S. 101f.
+###### - vgl.  https://www.zdf.de/dokumentation/momente-der-geschichte/das-leben-der-bauern-im-mittelalter-102.html, gesehen am 30.03.2018 um 10:46 Uhr
