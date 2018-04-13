@@ -28,7 +28,7 @@ Beantwortet ihr die Frage jedoch falsch, sind eure Mitspieler an der Reihe. Erst
 WICHTIG: Um die Fragen zu beantworten könnt ihr die Informationstexte zu den jeweiligen Berufen lesen (oder euch vorlesen lassen). Um eure Antworten zu überprüfen, müsst ihr die Fragekarten aufklappen.
 
 ### Achtung:
-Die blauen Felder sind ganz normale Spielfelder. Gelangt ihr jedoch auf grüne Felder, so zieht ihr eine Frage-und Ereigniskarte (?!). Ihr müsst die euch gestellte Frage (zum Markt)oder die Aktion ausführen.
+Die blauen Felder sind ganz normale Spielfelder. Gelangt ihr jedoch auf grüne Felder, so zieht ihr eine Frage-und Ereigniskarte (?!). Ihr müsst die euch gestellte Frage (zum Markt) oder die Aktion ausführen.
 
 ### Nach dem Spiel:
 Habt ihr das Spiel beendet und alle Mitspieler sind am Startpunkt angelangt, so beantwortet ihr danach die beiliegenden Aufgaben. Die Informationen, die ihr im Spiel gesammelt habt, können euch dabei helfen.
@@ -40,21 +40,14 @@ So erfahren alle Spieler die wichtigen Informationen.
 
 <center> Viel Spaß beim Spielen !</center>
 
-
-###### Bader         ![](./Bilder/baderstand.png)
-
-###### Bauer         ![](./Bilder/bauernstand.png)
-
-###### Gerber       ![](./Bilder/gerberstand.png)
-
-###### Schmied       ![](./Bilder/schmiedstand.png)
-
-###### Bäcker       ![](./Bilder/bäckerstand.png)
-
-###### Schreiber    ![](./Bilder/schreiberstand.png)
-
-###### Töpfer       ![](./Bilder/töpferstand.png)
-
-###### Fernkaufmann     ![](./Bilder/fernkaufmannstand.png)
-
-###### Sattler      ![](./Bilder/sattlerstand.png)
+|              |                                     |
+|--------------|-------------------------------------|
+| Bader        | ![](./Bilder/baderstand.png)        |
+| Bauer        | ![](./Bilder/bauernstand.png)       |
+| Gerber       | ![](./Bilder/gerberstand.png)       |
+| Schmied      | ![](./Bilder/schmiedstand.png)      |
+| Bäcker       | ![](./Bilder/bäckerstand.png)       |
+| Schreiber    | ![](./Bilder/schreiberstand.png)    |
+| Töpfer       | ![](./Bilder/töpferstand.png)       |
+| Fernkaufmann | ![](./Bilder/fernkaufmannstand.png) |
+| Sattler      | ![](./Bilder/sattlerstand.png)      |

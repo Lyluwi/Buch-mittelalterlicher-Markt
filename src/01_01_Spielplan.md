@@ -1,6 +1,6 @@
 # Beispiel Spielplan
 Auf dieser Seite findet ihr zwei Spielpläne: Spielplan * und Spielplan **. 
-Diese zeigen euch, wo ihr die einzelnen Marktstände platzieren müsst. Da alle unterschiedliche größen haben, haben sie einen bestimmten Platz.
+Diese zeigen euch, wo ihr die einzelnen Marktstände platzieren müsst. Da alle unterschiedliche Größen haben, haben sie einen bestimmten Platz.
 
 ### Spielplan *
 ![](./Bilder/Spielplan_schwach_klein.png)
