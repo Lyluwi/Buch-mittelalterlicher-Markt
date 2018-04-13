@@ -1,3 +1,8 @@
+<audio controls="controls">
+  <source src="assets/gerber-low.mp3" type="audio/mpeg">
+  Dein Browser unterstützt kein <code>audio</code> element.
+</audio>
+
 ## Die Gerber
 
 Die Gerber stellten aus Tierhäuten Leder her. Dafür mussten sie die Tierhaut waschen und so von Fleischresten und ähnlichem befreien. Anschließend wurden die Tierhäute mit Hilfe von Rinde gegerbt (chemische Prozesse) und so wasserabweisend, widerstandsfähig und gleichzeitig geschmeidig gemacht. Nach dem Trocknen des Leders wurde es in handelsübliche Formate geschnitten und konnte nun auf dem Markt weiter verkauft werden.

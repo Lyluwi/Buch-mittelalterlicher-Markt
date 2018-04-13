@@ -1,3 +1,8 @@
+<audio controls="controls">
+  <source src="assets/sattler-low.mp3" type="audio/mpeg">
+  Dein Browser unterstützt kein <code>audio</code> element.
+</audio>
+
 ## Der Sattler
 
 Um ihren Beruf auszuführen, benötigten die Sattler Leder, welches sie von Gerbern beziehen konnten. Mit Hilfe des Leders stellte der Sattler dann Sättel und Geschirr zum Anspannen von Pferden her.

@@ -1,3 +1,8 @@
+<audio controls="controls">
+  <source src="assets/bäcker-low.mp3" type="audio/mpeg">
+  Dein Browser unterstützt kein <code>audio</code> element.
+</audio>
+
 ## Bäcker
 
 Brot gehörte im Mittelalter zu den wichtigsten Grundnahrungsmitteln. Deshalb gehörten die Bäcker zu den am stärksten vertretenen Handwerkern.

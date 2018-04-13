@@ -1,3 +1,8 @@
+<audio controls="controls">
+  <source src="assets/Fernkaufmann-low.mp3" type="audio/mpeg">
+  Dein Browser unterstützt kein <code>audio</code> element.
+</audio>
+
 ## Der Fernkaufmann
 
 Gehandelt wurde schon immer. Jedoch war es aufgrund unbefestigter Straßen sehr mühsam. Oft wurden Handelskarren auch überfallen. 

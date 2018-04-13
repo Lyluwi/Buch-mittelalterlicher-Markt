@@ -1,3 +1,8 @@
+<audio controls="controls">
+  <source src="assets/Schmied-low.mp3" type="audio/mpeg">
+  Dein Browser unterstützt kein <code>audio</code> element.
+</audio>
+
 ## Der Schmied
 
 Im Mittelalter gab es viele verschiedene Schmiede. 

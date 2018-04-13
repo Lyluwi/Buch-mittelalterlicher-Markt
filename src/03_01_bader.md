@@ -1,3 +1,8 @@
+<audio controls="controls">
+  <source src="assets/bader-low.mp3" type="audio/mpeg">
+  Dein Browser unterstützt kein <code>audio</code> element.
+</audio>
+
 ## Bader
 
 Die Bader betrieben die Badehäuser des Mittelalters. Familien, die in ihren Häusern nicht die Möglichkeit hatten, zu baden, besuchten alle ein bis zwei Wochen ein Badehaus.

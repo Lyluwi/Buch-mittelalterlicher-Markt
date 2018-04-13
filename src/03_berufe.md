@@ -1,3 +1,8 @@
+<audio controls="controls">
+  <source src="assets/Berufe-low.mp3" type="audio/mpeg">
+  Dein Browser unterstützt kein <code>audio</code> element.
+</audio>
+
 # Berufe des Mittelalters
 In den Städten des Mittelalters arbeiteten zahlreiche Handwerker wie die Bäcker, Weber, Töpfer, Mauerer, Zimmerleute, Schmiede und viele mehr. Die Vielfalt der Berufe ist mit dieser Aufzählung nicht annähernd ausgeschöpft. 
 

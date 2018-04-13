@@ -1,3 +1,8 @@
+<audio controls="controls">
+  <source src="assets/bauer-low.mp3" type="audio/mpeg">
+  Dein Browser unterstützt kein <code>audio</code> element.
+</audio>
+
 ## Die Bauern
 
 Das Leben der Bauern im Mittelalter war sehr hart. Viele von ihnen waren sogenannte Hörige (Unfreie): An einen Großgrundbesitzer mussten sie einen großen Teil der Ernte abgeben und auf dem Hof des Großgrundbesitzer mussten sie Arbeitsleistungen verrichten. 
