@@ -1,6 +1,6 @@
 # Summary
-- [Spielanleitung](./01_Anleitung.md)
-- [Spielplan](./01_01_Spielplan.md)
+[Spielanleitung](./01_Anleitung.md)
+[Spielplan](./01_01_Spielplan.md)
 - [Der spätmittelalterliche Markt](./02_markt.md)
 - [Berufe des Mittelalters](./03_berufe.md)
     - [Bader](./03_01_bader.md)

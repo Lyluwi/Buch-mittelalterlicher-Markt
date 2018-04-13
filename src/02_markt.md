@@ -9,13 +9,15 @@
 ![](./Bilder/markt.JPG)
 Darstellung des "Marktplatzes von Halle um 1500", von unbekannt, Leipzig, 1889 erstellt
 
+###### Bildquelle: https://commons.wikimedia.org/wiki/File:Halle-Saale-Marktplatz-anno-1500-1889_ArM.JPG, gesehen am 1.03.2018 um 16:34 Uhr
+
 ## Informationstext über den Markt
 
 Der Markt war der Mittelpunkt vieler Städte. Auf den Marktplätzen fand der gesamte Handel statt. Der Markt war zudem oft ein Treffpunkt und eine Möglichkeit, dem Alltag des Mittelalters zu entfliehen: Gaukler (Sänger, Jongleure, Feuerschlucker ...) belustigten die Menschen.
 An verschiedenen Ständen konnten sich die Menschen mit benötigten Waren eindecken. 
 Ein Markt ermöglichte es den Bürgern der Stadt und den Menschen aus dem Umland zudem, ihre Waren und Dienste anzubieten.
 
-Es wurden nicht nur Grundnahrungsmittel angeboten, auch andere Produkte wie z.B.: Keramik-, Metall- oder Holzwaren. Auch Gewürze,Stoffe oder Wein wurden von Fernkaufmännern verkauft.
+Es wurden nicht nur Grundnahrungsmittel angeboten, auch andere Produkte wie z.B.: Keramik-, Metall- oder Holzwaren. Auch Gewürze, Stoffe oder Wein wurden von Fernkaufmännern verkauft.
 
 In einigen Städten gab es verschiedene Märkte, die auf unterschiedliche Waren spezialisiert waren. So gab es zum Beispiel einen Fischmarkt, einen Gewürzmarkt oder einen Gemüsemarkt. 
 Einmal im Jahr fand ein Jahrmarkt statt.

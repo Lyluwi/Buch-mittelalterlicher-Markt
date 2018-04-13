@@ -19,5 +19,5 @@ Im Spätmittelalter gab es auch Waffenschmiede, die Waffen herstellten sowie Huf
 
 Darstellung eines mittelalterlichen Schmieds, von Jost Amman, Frankfurt a.M, 1568
 
-###### Bildquelle: hhttps://commons.wikimedia.org/wiki/File:Schmidt-1568.png, gesehen am 17.03.2018 um 17:18 Uhr
+###### Bildquelle: https://commons.wikimedia.org/wiki/File:Schmidt-1568.png, gesehen am 17.03.2018 um 17:18 Uhr
 

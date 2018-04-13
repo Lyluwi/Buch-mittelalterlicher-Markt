@@ -18,4 +18,4 @@ Auf dem Bild schiebt ein Bäcker Brot in seinen Ofen.
 ![](./Bilder/derBäcker.jpg)
 
 Calendar from a book of hours: the month of December, von anonym, um 1490-1500
-###### Bildquelle:https://commons.wikimedia.org/wiki/File:Bakermiddleages.jpg, gesehen am 02.03.2018 um 09:57 Uhr
+###### Bildquelle: https://commons.wikimedia.org/wiki/File:Bakermiddleages.jpg, gesehen am 02.03.2018 um 09:57 Uhr
