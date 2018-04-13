@@ -1,0 +1,20 @@
+language: rust
+
+cache:
+  - cargo
+
+install:
+  - cargo install mdbook
+  - export PATH="$PATH:~/.cargo/bin"
+
+script:
+  mdbook build
+
+deploy:
+  local-dir: book
+  provider: pages
+  skip-cleanup: true
+  github-token: $GITHUB_TOKEN
+  keep-history: true
+  on:
+    branch: master
