@@ -1,0 +1,10 @@
+audio {
+    -moz-border-radius:0.5em 0.5em 0.5em 0.5em ;
+    -webkit-border-radius:0.5em 0.5em 0.5em 0.5em ;
+    border-radius:0.5em 0.5em 0.5em 0.5em ;
+
+    width: 100%;
+    max-width: 100em;
+    
+    height: 2em;
+}

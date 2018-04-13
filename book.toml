@@ -2,3 +2,6 @@
 authors = []
 multilingual = false
 src = "src"
+
+[output.html]
+additional-css = ["src/assets/custom.css"]
