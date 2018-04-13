@@ -4,7 +4,7 @@ cache:
   - cargo
 
 install:
-  - cargo install mdbook
+  - cargo install mdbook || true
   - export PATH="$PATH:~/.cargo/bin"
 
 script:
