@@ -25,6 +25,8 @@
 
         <!-- Custom theme -->
         
+        <link rel="stylesheet" href="src/assets/custom.css">
+        
 
         
 
@@ -120,7 +122,11 @@
 
                 <div id="content" class="content">
                     <main>
-                        <a class="header" href="03_03_gerber.html#die-gerber" id="die-gerber"><h2>Die Gerber</h2></a>
+                        <p><audio controls="controls">
+<source src="assets/gerber-low.mp3" type="audio/mpeg">
+Dein Browser unterstützt kein <code>audio</code> element.
+</audio></p>
+<a class="header" href="03_03_gerber.html#die-gerber" id="die-gerber"><h2>Die Gerber</h2></a>
 <p>Die Gerber stellten aus Tierhäuten Leder her. Dafür mussten sie die Tierhaut waschen und so von Fleischresten und ähnlichem befreien. Anschließend wurden die Tierhäute mit Hilfe von Rinde gegerbt (chemische Prozesse) und so wasserabweisend, widerstandsfähig und gleichzeitig geschmeidig gemacht. Nach dem Trocknen des Leders wurde es in handelsübliche Formate geschnitten und konnte nun auf dem Markt weiter verkauft werden.</p>
 <p>Der Prozess des Gerbens war sehr zeitaufwendig und dauerte mehrere Wochen. Außerdem ist nasses Leder sehr schwer, sodass Gerben Schwerstarbeit war.</p>
 <p>Leder war Ausgangsstoff für viele andere Produkte.</p>
@@ -180,21 +186,6 @@ Die Waren mussten sie zum Verkauf zum Markt transportieren.</p>
             }
         </script>
 
-        
-        <!-- Livereload script (if served using the cli tool) -->
-        <script type="text/javascript">
-            var socket = new WebSocket("ws://localhost:3001");
-            socket.onmessage = function (event) {
-                if (event.data === "reload") {
-                    socket.close();
-                    location.reload(true); // force reload from server (not from cache)
-                }
-            };
-
-            window.onbeforeunload = function() {
-                socket.close();
-            }
-        </script>
         
 
         

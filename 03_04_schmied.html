@@ -25,6 +25,8 @@
 
         <!-- Custom theme -->
         
+        <link rel="stylesheet" href="src/assets/custom.css">
+        
 
         
 
@@ -120,7 +122,11 @@
 
                 <div id="content" class="content">
                     <main>
-                        <a class="header" href="03_04_schmied.html#der-schmied" id="der-schmied"><h2>Der Schmied</h2></a>
+                        <p><audio controls="controls">
+<source src="assets/Schmied-low.mp3" type="audio/mpeg">
+Dein Browser unterstützt kein <code>audio</code> element.
+</audio></p>
+<a class="header" href="03_04_schmied.html#der-schmied" id="der-schmied"><h2>Der Schmied</h2></a>
 <p>Im Mittelalter gab es viele verschiedene Schmiede.</p>
 <p>Der Kleinschmied (auch Schlosser) genannt, stellte verschiedene Schlösser her.</p>
 <p>Gold- und Silberschmiede bearbeiteten ihre Edelmetalle für Schmuck, kirchliche Gegenstände und Tafelgeschirr. Vor allem Goldschmiede waren im Spätmittelalter angesehene Handwerker. Sie besaßen eigene Häuser und hatten oft einen Vertreter im städtischen Rat. (Der Rat legte Gesetze fest. Er bestand aus Vertretern der Oberschicht).</p>
@@ -179,21 +185,6 @@
             }
         </script>
 
-        
-        <!-- Livereload script (if served using the cli tool) -->
-        <script type="text/javascript">
-            var socket = new WebSocket("ws://localhost:3001");
-            socket.onmessage = function (event) {
-                if (event.data === "reload") {
-                    socket.close();
-                    location.reload(true); // force reload from server (not from cache)
-                }
-            };
-
-            window.onbeforeunload = function() {
-                socket.close();
-            }
-        </script>
         
 
         

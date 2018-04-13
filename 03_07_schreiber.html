@@ -25,6 +25,8 @@
 
         <!-- Custom theme -->
         
+        <link rel="stylesheet" href="src/assets/custom.css">
+        
 
         
 
@@ -120,7 +122,11 @@
 
                 <div id="content" class="content">
                     <main>
-                        <a class="header" href="03_07_schreiber.html#schreiber" id="schreiber"><h2>Schreiber</h2></a>
+                        <p><audio controls="controls">
+<source src="assets/schreiber-low.mp3" type="audio/mpeg">
+Dein Browser unterstützt kein <code>audio</code> element.
+</audio></p>
+<a class="header" href="03_07_schreiber.html#schreiber" id="schreiber"><h2>Schreiber</h2></a>
 <p>Im Mittelalter konnten viele Menschen nicht schreiben.</p>
 <p>Die Schreiber des Mittelalters waren häufig Kaufleute oder ihr gehobenes Personal. Sie nutzten aus getrockneten Tierhäuten hergestelltes Pergament für Urkunden oder Papier,um Schriftstücke oder Abschriften aufzusetzen.
 Zum Schreiben nutzten sie Federn, welche sie mit Messern anspitzen konnten. Ihre Tinte stellten sie zumeist selbst her.</p>
@@ -180,21 +186,6 @@ Zum Schreiben nutzten sie Federn, welche sie mit Messern anspitzen konnten. Ihre
             }
         </script>
 
-        
-        <!-- Livereload script (if served using the cli tool) -->
-        <script type="text/javascript">
-            var socket = new WebSocket("ws://localhost:3001");
-            socket.onmessage = function (event) {
-                if (event.data === "reload") {
-                    socket.close();
-                    location.reload(true); // force reload from server (not from cache)
-                }
-            };
-
-            window.onbeforeunload = function() {
-                socket.close();
-            }
-        </script>
         
 
         

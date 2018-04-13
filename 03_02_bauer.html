@@ -25,6 +25,8 @@
 
         <!-- Custom theme -->
         
+        <link rel="stylesheet" href="src/assets/custom.css">
+        
 
         
 
@@ -120,7 +122,11 @@
 
                 <div id="content" class="content">
                     <main>
-                        <a class="header" href="03_02_bauer.html#die-bauern" id="die-bauern"><h2>Die Bauern</h2></a>
+                        <p><audio controls="controls">
+<source src="assets/bauer-low.mp3" type="audio/mpeg">
+Dein Browser unterstützt kein <code>audio</code> element.
+</audio></p>
+<a class="header" href="03_02_bauer.html#die-bauern" id="die-bauern"><h2>Die Bauern</h2></a>
 <p>Das Leben der Bauern im Mittelalter war sehr hart. Viele von ihnen waren sogenannte Hörige (Unfreie): An einen Großgrundbesitzer mussten sie einen großen Teil der Ernte abgeben und auf dem Hof des Großgrundbesitzer mussten sie Arbeitsleistungen verrichten.</p>
 <p>Im Spätmittelalter gingen deshalb viele Bauern in die Stadt, um dort ein neues Leben anzufangen. Lebten sie ein Jahr und einen Tag in der Stadt ohne vom Großgrundbesitzer zurück geholt zu werden, waren sie frei und erlangten das Bürgerrecht.</p>
 <p>Auf Märkten verkauften Bauern ihre Nahrungsmittel und versorgten so einen Großteil der Bevölkerung. Sie selbst konnten sich mit Waren der städtischen Handwerker eindecken und die benötigten Waren für das Leben auf dem Land kaufen</p>
@@ -177,21 +183,6 @@
             }
         </script>
 
-        
-        <!-- Livereload script (if served using the cli tool) -->
-        <script type="text/javascript">
-            var socket = new WebSocket("ws://localhost:3001");
-            socket.onmessage = function (event) {
-                if (event.data === "reload") {
-                    socket.close();
-                    location.reload(true); // force reload from server (not from cache)
-                }
-            };
-
-            window.onbeforeunload = function() {
-                socket.close();
-            }
-        </script>
         
 
         

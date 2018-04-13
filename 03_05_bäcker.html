@@ -25,6 +25,8 @@
 
         <!-- Custom theme -->
         
+        <link rel="stylesheet" href="src/assets/custom.css">
+        
 
         
 
@@ -120,7 +122,11 @@
 
                 <div id="content" class="content">
                     <main>
-                        <a class="header" href="03_05_bäcker.html#bäcker" id="bäcker"><h2>Bäcker</h2></a>
+                        <p><audio controls="controls">
+<source src="assets/bäcker-low.mp3" type="audio/mpeg">
+Dein Browser unterstützt kein <code>audio</code> element.
+</audio></p>
+<a class="header" href="03_05_bäcker.html#bäcker" id="bäcker"><h2>Bäcker</h2></a>
 <p>Brot gehörte im Mittelalter zu den wichtigsten Grundnahrungsmitteln. Deshalb gehörten die Bäcker zu den am stärksten vertretenen Handwerkern.</p>
 <p>In großen Städten spezialisierten sich die Bäcker. So gab es Schwarz- und Weißbrotbäcker, Pfefferkuchen-, Brezel- oder Zuckerbäcker.</p>
 <p>Gewicht, Preis und Qualität von Broten wurde im Spätmittelalter streng kontrolliert und festgeschrieben.</p>
@@ -179,21 +185,6 @@
             }
         </script>
 
-        
-        <!-- Livereload script (if served using the cli tool) -->
-        <script type="text/javascript">
-            var socket = new WebSocket("ws://localhost:3001");
-            socket.onmessage = function (event) {
-                if (event.data === "reload") {
-                    socket.close();
-                    location.reload(true); // force reload from server (not from cache)
-                }
-            };
-
-            window.onbeforeunload = function() {
-                socket.close();
-            }
-        </script>
         
 
         

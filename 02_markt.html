@@ -25,6 +25,8 @@
 
         <!-- Custom theme -->
         
+        <link rel="stylesheet" href="src/assets/custom.css">
+        
 
         
 
@@ -120,7 +122,11 @@
 
                 <div id="content" class="content">
                     <main>
-                        <a class="header" href="02_markt.html#ein-spätmittelalterlicher-markt" id="ein-spätmittelalterlicher-markt"><h1>Ein spätmittelalterlicher Markt</h1></a>
+                        <p><audio controls="controls">
+<source src="assets/markt-low.mp3" type="audio/mpeg">
+Dein Browser unterstützt kein <code>audio</code> element.
+</audio></p>
+<a class="header" href="02_markt.html#ein-spätmittelalterlicher-markt" id="ein-spätmittelalterlicher-markt"><h1>Ein spätmittelalterlicher Markt</h1></a>
 <p><img src="./Bilder/markt.JPG" alt="" />
 Darstellung des &quot;Marktplatzes von Halle um 1500&quot;, von unbekannt, Leipzig, 1889 erstellt</p>
 <a class="header" href="02_markt.html#informationstext-über-den-markt" id="informationstext-über-den-markt"><h2>Informationstext über den Markt</h2></a>
@@ -185,21 +191,6 @@ Zum anderen waren die Maße der Waren, wie z.B.: Länge von Stoffen,oder Gewicht
             }
         </script>
 
-        
-        <!-- Livereload script (if served using the cli tool) -->
-        <script type="text/javascript">
-            var socket = new WebSocket("ws://localhost:3001");
-            socket.onmessage = function (event) {
-                if (event.data === "reload") {
-                    socket.close();
-                    location.reload(true); // force reload from server (not from cache)
-                }
-            };
-
-            window.onbeforeunload = function() {
-                socket.close();
-            }
-        </script>
         
 
         

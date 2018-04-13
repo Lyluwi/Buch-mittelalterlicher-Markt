@@ -25,6 +25,8 @@
 
         <!-- Custom theme -->
         
+        <link rel="stylesheet" href="src/assets/custom.css">
+        
 
         
 
@@ -120,7 +122,11 @@
 
                 <div id="content" class="content">
                     <main>
-                        <a class="header" href="03_08_töpfer.html#der-töpfer" id="der-töpfer"><h2>Der Töpfer</h2></a>
+                        <p><audio controls="controls">
+<source src="assets/töpfer-low.mp3" type="audio/mpeg">
+Dein Browser unterstützt kein <code>audio</code> element.
+</audio></p>
+<a class="header" href="03_08_töpfer.html#der-töpfer" id="der-töpfer"><h2>Der Töpfer</h2></a>
 <p>Mit Hilfe von Ton, zur Not nutze man auch Lehm, und Wasser erschufen Töpfer im Mittelalter Gebrauchsgefäße, sogenannte Irdenware.
 Deshalb wurden Töpferwerkstätten häufig dort gebaut, wo viel Ton und wenn möglich, ein nahgelegener Fluss vorhanden waren.</p>
 <p>Töpfer bauten ihren benötigten Ton in der Regel selbst ab und lagerten den dann im Freien, sodass Regen und Wind den Ton von Schmutz befreien konnten.</p>
@@ -176,21 +182,6 @@ Deshalb wurden Töpferwerkstätten häufig dort gebaut, wo viel Ton und wenn mö
             }
         </script>
 
-        
-        <!-- Livereload script (if served using the cli tool) -->
-        <script type="text/javascript">
-            var socket = new WebSocket("ws://localhost:3001");
-            socket.onmessage = function (event) {
-                if (event.data === "reload") {
-                    socket.close();
-                    location.reload(true); // force reload from server (not from cache)
-                }
-            };
-
-            window.onbeforeunload = function() {
-                socket.close();
-            }
-        </script>
         
 
         

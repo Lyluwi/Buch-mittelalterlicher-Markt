@@ -25,6 +25,8 @@
 
         <!-- Custom theme -->
         
+        <link rel="stylesheet" href="src/assets/custom.css">
+        
 
         
 
@@ -120,7 +122,11 @@
 
                 <div id="content" class="content">
                     <main>
-                        <a class="header" href="03_berufe.html#berufe-des-mittelalters" id="berufe-des-mittelalters"><h1>Berufe des Mittelalters</h1></a>
+                        <p><audio controls="controls">
+<source src="assets/Berufe-low.mp3" type="audio/mpeg">
+Dein Browser unterstützt kein <code>audio</code> element.
+</audio></p>
+<a class="header" href="03_berufe.html#berufe-des-mittelalters" id="berufe-des-mittelalters"><h1>Berufe des Mittelalters</h1></a>
 <p>In den Städten des Mittelalters arbeiteten zahlreiche Handwerker wie die Bäcker, Weber, Töpfer, Mauerer, Zimmerleute, Schmiede und viele mehr. Die Vielfalt der Berufe ist mit dieser Aufzählung nicht annähernd ausgeschöpft.</p>
 <p>Allerdings gab es nicht nur viele Handwerker, sondern auch viele Dienstleister (Bader, Boten, Fuhrleute, Schreiber, ...)</p>
 <p>Die Handwerksberufe waren im Spätmittelalter noch zu Zünften zusammengeschossen um gemeinsame Interessen zu vertreten und zu wahren. An der Spitze einer Zunft standen die Zunftmeister. In einem schriftlich abgefassten Gesetzt, der Zunftordnung, waren Rechte und Pflichten der Zunftmitglieder festgehalten.</p>
@@ -175,21 +181,6 @@
             }
         </script>
 
-        
-        <!-- Livereload script (if served using the cli tool) -->
-        <script type="text/javascript">
-            var socket = new WebSocket("ws://localhost:3001");
-            socket.onmessage = function (event) {
-                if (event.data === "reload") {
-                    socket.close();
-                    location.reload(true); // force reload from server (not from cache)
-                }
-            };
-
-            window.onbeforeunload = function() {
-                socket.close();
-            }
-        </script>
         
 
         

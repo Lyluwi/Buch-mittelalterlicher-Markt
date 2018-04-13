@@ -25,6 +25,8 @@
 
         <!-- Custom theme -->
         
+        <link rel="stylesheet" href="src/assets/custom.css">
+        
 
         
 
@@ -120,7 +122,11 @@
 
                 <div id="content" class="content">
                     <main>
-                        <a class="header" href="03_01_bader.html#bader" id="bader"><h2>Bader</h2></a>
+                        <p><audio controls="controls">
+<source src="assets/bader-low.mp3" type="audio/mpeg">
+Dein Browser unterstützt kein <code>audio</code> element.
+</audio></p>
+<a class="header" href="03_01_bader.html#bader" id="bader"><h2>Bader</h2></a>
 <p>Die Bader betrieben die Badehäuser des Mittelalters. Familien, die in ihren Häusern nicht die Möglichkeit hatten, zu baden, besuchten alle ein bis zwei Wochen ein Badehaus.
 Im Spätmittelalter ermöglichte das Baden in Badehäusern Geselligkeit und Abwechslung vom Alltag. Es gab keine Geschlechtertrennung. Die Gäste wurden mit Speisen und Getränken versorgt.</p>
 <p>Die Bader boten oft zusätzliche Dienstleistungen an, wie das Schneiden von Haaren und Nägeln oder aber auch Wundbehandlungen. Sie waren also auch medizinisch tätig.
@@ -181,21 +187,6 @@ Badeknechte halfen bei medizinischen Tätigkeiten während Bademärkte die Gäst
             }
         </script>
 
-        
-        <!-- Livereload script (if served using the cli tool) -->
-        <script type="text/javascript">
-            var socket = new WebSocket("ws://localhost:3001");
-            socket.onmessage = function (event) {
-                if (event.data === "reload") {
-                    socket.close();
-                    location.reload(true); // force reload from server (not from cache)
-                }
-            };
-
-            window.onbeforeunload = function() {
-                socket.close();
-            }
-        </script>
         
 
         
