@@ -43,7 +43,7 @@ So erfahren alle Spieler die wichtigen Informationen.
 |                   |                                          |
 |-------------------|------------------------------------------|
 | [Bader][1]        | [![](./Bilder/baderstand.png)][1]        |
-| [Bauer][2]       ´| [![](./Bilder/bauernstand.png)][2]       |
+| [Bauer][2]        | [![](./Bilder/bauernstand.png)][2]       |
 | [Gerber][3]       | [![](./Bilder/gerberstand.png)][3]       |
 | [Schmied][4]      | [![](./Bilder/schmiedstand.png)][4]      |
 | [Bäcker][5]       | [![](./Bilder/bäckerstand.png)][5]       |
