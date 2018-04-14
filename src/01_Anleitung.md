@@ -40,14 +40,24 @@ So erfahren alle Spieler die wichtigen Informationen.
 
 <center> Viel Spaß beim Spielen !</center>
 
-|              |                                     |
-|--------------|-------------------------------------|
-| Bader        | ![](./Bilder/baderstand.png)        |
-| Bauer        | ![](./Bilder/bauernstand.png)       |
-| Gerber       | ![](./Bilder/gerberstand.png)       |
-| Schmied      | ![](./Bilder/schmiedstand.png)      |
-| Bäcker       | ![](./Bilder/bäckerstand.png)       |
-| Schreiber    | ![](./Bilder/schreiberstand.png)    |
-| Töpfer       | ![](./Bilder/töpferstand.png)       |
-| Fernkaufmann | ![](./Bilder/fernkaufmannstand.png) |
-| Sattler      | ![](./Bilder/sattlerstand.png)      |
+|                   |                                          |
+|-------------------|------------------------------------------|
+| [Bader][1]        | [![](./Bilder/baderstand.png)][1]        |
+| [Bauer][2]       ´| [![](./Bilder/bauernstand.png)][2]       |
+| [Gerber][3]       | [![](./Bilder/gerberstand.png)][3]       |
+| [Schmied][4]      | [![](./Bilder/schmiedstand.png)][4]      |
+| [Bäcker][5]       | [![](./Bilder/bäckerstand.png)][5]       |
+| [Schreiber][6]    | [![](./Bilder/schreiberstand.png)][6]    |
+| [Töpfer][7]       | [![](./Bilder/töpferstand.png)][7]       |
+| [Fernkaufmann][8] | [![](./Bilder/fernkaufmannstand.png)][8] |
+| [Sattler][9]      | [![](./Bilder/sattlerstand.png)][9]      |
+
+[1]: ./03_01_bader
+[2]: ./03_02_bauer
+[3]: ./03_03_gerber
+[4]: ./03_04_schmied
+[5]: ./03_05_bäcker
+[6]: ./03_06_schreiber
+[7]: ./03_07_töpfer
+[8]: ./03_08_fernkaufmann
+[9]: ./03_09_sattler
