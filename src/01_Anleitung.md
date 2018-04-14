@@ -3,11 +3,11 @@
 ### Ihr braucht: 
 - jeder eine Spielfigur
 - einen Würfel
-- einen Spielplan: * oder **   (*: 5 Berufe, **: 9 Berufe)
-- ein Handy oder Tablett mit Internetzugang
+- einen Spielplan: * oder **   (*: 5 Berufe, **: 9 Berufe) (in Spielbox)
+- ein Handy oder Tablett mit Internetzugang, um die [Website](https://lyluwi.github.io/Buch-mittelalterlicher-Markt) aufzurufen: 
 - 4 Einkaufszettel
-- Frage- und Ereigniskarten (?!)
-- Fragen zu verschiedenen Berufen
+- Frage- und Ereigniskarten (?!) (in Spielbox)
+- Fragen zu verschiedenen Berufen (in Spielbox)
 
 ### Spielvorbereitung: 
 1. Sortiert alle Karten mit dem gleichen Symbol auf je einen Stapel. Je nachdem für welchen Differenzierungsgrad * / ** ihr euch entschieden habt, habt ihr entweder 6 oder 10 Stapel.
@@ -57,7 +57,7 @@ So erfahren alle Spieler die wichtigen Informationen.
 [3]: ./03_03_gerber
 [4]: ./03_04_schmied
 [5]: ./03_05_bäcker
-[6]: ./03_06_schreiber
-[7]: ./03_07_töpfer
-[8]: ./03_08_fernkaufmann
-[9]: ./03_09_sattler
+[6]: ./03_07_schreiber
+[7]: ./03_08_töpfer
+[8]: ./03_09_fernkaufmann
+[9]: ./03_10_sattler
