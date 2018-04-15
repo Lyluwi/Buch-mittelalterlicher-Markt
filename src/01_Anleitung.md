@@ -1,7 +1,7 @@
 # Spiel: Auf dem spätmittelalterliche Markt
 
-1-4 Spieler
-für die 4. Klasse
+- 1-4 Spieler
+- für die 4. Klasse
 
 ### Ihr braucht: 
 - jeder eine Spielfigur
