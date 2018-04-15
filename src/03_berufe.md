@@ -4,7 +4,7 @@
 </audio>
 
 # Berufe des Mittelalters
-In den Städten des Mittelalters arbeiteten zahlreiche Handwerker wie die Bäcker, Weber, Töpfer, Mauerer, Zimmerleute, Schmiede und viele mehr. Die Vielfalt der Berufe ist mit dieser Aufzählung nicht annähernd ausgeschöpft. 
+In den Städten des Mittelalters arbeiteten zahlreiche Handwerker wie die Bäcker, Weber, Töpfer, Maurer, Zimmerleute, Schmiede und viele mehr. Die Vielfalt der Berufe ist mit dieser Aufzählung nicht annähernd ausgeschöpft. 
 
 Allerdings gab es nicht nur viele Handwerker, sondern auch viele Dienstleister (Bader, Boten, Fuhrleute, Schreiber, ...).
 

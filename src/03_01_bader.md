@@ -9,7 +9,7 @@ Die Bader betrieben die Badehäuser des Mittelalters. Familien, die in ihren Hä
 Im Spätmittelalter ermöglichte das Baden in Badehäusern Geselligkeit und Abwechslung vom Alltag. Es gab keine Geschlechtertrennung. Die Gäste wurden mit Speisen und Getränken versorgt.
 
 Die Bader boten oft zusätzliche Dienstleistungen an, wie das Schneiden von Haaren und Nägeln oder aber auch Wundbehandlungen. Sie waren also auch medizinisch tätig.
-Badeknechte halfen bei medizinischen Tätigkeiten während Bademärkte die Gäste bedienten.
+Badeknechte halfen bei medizinischen Tätigkeiten während Bademägde die Gäste bedienten.
 
 In Badehäusern bestand häufig die Gefahr, sich mit Krankheiten anzustecken. 
 

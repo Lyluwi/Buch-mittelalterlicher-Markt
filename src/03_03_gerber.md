@@ -14,7 +14,7 @@ Leder war Ausgangsstoff für viele andere Produkte.
 Die Gerber benötigten für ihre Arbeit fließendes Wasser. Wegen der Geruchsintensität wurden die Gerber oft außerhalb des Stadtzentrums und damit außerhalb der Märkte angesiedelt. 
 Die Waren mussten sie zum Verkauf zum Markt transportieren. 
 
-Auf dem Bild bearbeitet ein Gerber eine Tierhaut, die er auf einen Holzbalken, dem Scherbaum gelegt hat. 
+Auf dem Bild bearbeitet ein Gerber eine Tierhaut, die er auf einen Holzbalken, den Scherbaum, gelegt hat. 
 
 ![](./Bilder/derGerber.jpg)
 
