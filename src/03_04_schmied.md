@@ -7,13 +7,13 @@
 
 Im Mittelalter gab es viele verschiedene Schmiede. 
 
-Der Kleinschmied (auch Schlosser) genannt, stellte verschiedene Schlösser her.
+Der Kleinschmied, auch Schlosser, genannt, stellte verschiedene Schlösser her.
 
-Gold- und Silberschmiede bearbeiteten ihre Edelmetalle für Schmuck, kirchliche Gegenstände und Tafelgeschirr. Vor allem Goldschmiede waren im Spätmittelalter angesehene Handwerker. Sie besaßen eigene Häuser und hatten oft einen Vertreter im städtischen Rat. (Der Rat legte Gesetze fest. Er bestand aus Vertretern der Oberschicht).
+Gold- und Silberschmiede bearbeiteten ihre Edelmetalle für Schmuck, kirchliche Gegenstände und Tafelgeschirr. Vor allem Goldschmiede waren im Spätmittelalter angesehene Handwerker. Sie besaßen eigene Häuser und hatten oft einen Vertreter im städtischen Rat. (Der Rat legte Gesetze fest. Er bestand aus Vertretern der Oberschicht.)
 
 Kupferschmiede stellten verschiedene Waren her: Becher, Besteck, Geschirr und anderes.
 
-Im Spätmittelalter gab es auch Waffenschmiede, die Waffen herstellten sowie Hufschmiede. Diese waren jedoch hauptsächlich auf dem Land vertreten.
+Im Spätmittelalter gab es auch Waffenschmiede, die Waffen herstellten und Hufschmiede, die  jedoch hauptsächlich auf dem Land vertreten waren.
 
 ![](./Bilder/derSchmied.png)
 

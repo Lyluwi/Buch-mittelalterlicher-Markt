@@ -5,7 +5,7 @@
 
 ## Die Bauern
 
-Das Leben der Bauern im Mittelalter war sehr hart. Viele von ihnen waren sogenannte Hörige (Unfreie). An einen Großgrundbesitzer mussten sie einen großen Teil der Ernte abgeben und auf dem Hof des Großgrundbesitzer mussten sie Arbeitsleistungen verrichten. 
+Das Leben der Bauern im Mittelalter war sehr hart. Viele von ihnen waren sogenannte Hörige (Unfreie). An einen Großgrundbesitzer mussten sie einen großen Teil der Ernte abgeben und auf dessen Hof Arbeitsleistungen verrichten. 
 
 Im Spätmittelalter gingen deshalb viele Bauern in die Stadt, um dort ein neues Leben anzufangen. Lebten sie ein Jahr und einen Tag in der Stadt, ohne vom Großgrundbesitzer zurück geholt zu werden, waren sie frei und erlangten das Bürgerrecht. 
 

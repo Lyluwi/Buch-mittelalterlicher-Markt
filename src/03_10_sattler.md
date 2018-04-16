@@ -6,7 +6,7 @@
 ## Der Sattler
 
 Um ihren Beruf auszuführen, benötigten die Sattler Leder, welches sie von Gerbern beziehen konnten. Mit Hilfe des Leders stellte der Sattler dann Sättel und Geschirr zum Anspannen von Pferden her.
-Sattel und Geschirr mussten den Pferden genau angepasst werden, damit keine Druckstellen entstanden. Deswegen war der Beruf sehr aufwendig.
+Sattel und Geschirr mussten den Pferden genau angepasst werden, damit keine Druckstellen an den Tierkörpern entstanden. Deswegen war der Beruf sehr aufwendig.
 
 Zum Arbeiten nutzten die Sattler verschiedene Schneid- und Nähwerkzeuge. Mit einer Sattelzange wurde das Leder eingespannt, sodass der Sattler beide Hände zum Arbeiten frei hatte.
 

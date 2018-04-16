@@ -7,11 +7,11 @@
 Im Mittelalter konnten viele Menschen nicht schreiben.
 
 Die Schreiber des Mittelalters waren deshalb häufig Kaufleute oder ihr gehobenes Personal. Sie nutzten aus getrockneten Tierhäuten hergestelltes Pergament für Urkunden oder Papier, um Schriftstücke oder Abschriften aufzusetzen. 
-Zum Schreiben nutzten sie Federn, welche sie mit Messern anspitzen konnten. Ihre Tinte stellten sie zumeist selbst her.
+Zum Schreiben verwendeten sie Federn, welche sie mit Messern anspitzen konnten. Ihre Tinte stellten sie zumeist selbst her.
 
 Einige Schreiber arbeiteten offiziell für ihre Stadt und bekamen Geld für Abschriften, Urkunden, Briefe und Ähnlichem. Sie wurden Stuhl- oder Berufsschreiber genannt. 
 
-Manche Schreiber trugen die Bezeichnung Schreib- oder Rechenmeister. In Privatschulen unterrichteten sie die Kinder von Kaufleuten und anderen Handwerkern in den Grundfertigkeiten: Lesen, Schreiben sowie Rechnen. 
+Manche Schreiber trugen die Bezeichnung "Schreib- oder Rechenmeister". In Privatschulen unterrichteten sie die Kinder von Kaufleuten und anderen Handwerkern in den Grundfertigkeiten: Lesen, Schreiben sowie Rechnen. 
 
 Auf dem Bild ist ein Schreiber mit diversen Materialien dargestellt. 
 

@@ -5,7 +5,7 @@
 
 ## Bader
 
-Die Bader betrieben die Badehäuser des Mittelalters. Familien, die in ihren Häusern nicht die Möglichkeit hatten, zu baden, besuchten alle ein bis zwei Wochen ein Badehaus.
+Die Bader betrieben die Badehäuser des Mittelalters. Familien, die in ihren Häusern nicht die Möglichkeit hatten zu baden, besuchten alle ein bis zwei Wochen ein Badehaus.
 Im Spätmittelalter ermöglichte das Baden in Badehäusern Geselligkeit und Abwechslung vom Alltag. Es gab keine Geschlechtertrennung. Die Gäste wurden mit Speisen und Getränken versorgt.
 
 Die Bader boten oft zusätzliche Dienstleistungen an, wie das Schneiden von Haaren und Nägeln oder aber auch Wundbehandlungen. Sie waren also auch medizinisch tätig.

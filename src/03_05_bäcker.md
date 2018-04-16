@@ -11,7 +11,7 @@ In großen Städten spezialisierten sich die Bäcker. So gab es Schwarz- und Wei
 
 Gewicht, Preis und Qualität von Broten wurde im Spätmittelalter streng kontrolliert und festgeschrieben. 
 
-Auf dem Markt verkauften die Frauen der Bäcker und Dienstmägde die Backwaren. In sogenannten Backstuben wurde der Verkauf jedoch von den Männern getätigt.
+Auf dem Markt verkauften die Frauen der Bäcker sowie Dienstmägde die Backwaren. In sogenannten Backstuben wurde der Verkauf jedoch von den Männern getätigt.
 
 Auf dem Bild schiebt ein Bäcker Brot in seinen Ofen.
 

@@ -5,9 +5,9 @@
 
 ## Die Gerber
 
-Die Gerber stellten aus Tierhäuten Leder her. Dafür mussten sie die Tierhaut waschen und so von Fleischresten und ähnlichem befreien. Anschließend wurden die Tierhäute mit Hilfe von Rinde gegerbt (chemische Prozesse) und so wasserabweisend, widerstandsfähig und gleichzeitig geschmeidig gemacht. Nach dem Trocknen des Leders wurde es in handelsübliche Formate geschnitten und konnte nun auf dem Markt weiter verkauft werden.
+Die Gerber stellten aus Tierhäuten Leder her. Dafür mussten sie die Tierhaut waschen und so von Fleischresten und Ähnlichem befreien. Anschließend wurden die Tierhäute mit Hilfe von Rinde gegerbt (chemische Prozesse) und so wasserabweisend, widerstandsfähig und gleichzeitig geschmeidig gemacht. Nach dem Trocknen des Leders wurde es in handelsübliche Formate geschnitten und konnte nun auf dem Markt weiter verkauft werden.
 
-Der Prozess des Gerbens war sehr zeitaufwendig und dauerte mehrere Wochen. Außerdem ist nasses Leder sehr schwer, sodass Gerben Schwerstarbeit war.
+Der Prozess des Gerbens war sehr zeitaufwendig und dauerte mehrere Wochen. Außerdem ist nasses Leder sehr schwer, sodass Gerben anstrengende Arbeit bedeutete.
 
 Leder war Ausgangsstoff für viele andere Produkte. 
 
