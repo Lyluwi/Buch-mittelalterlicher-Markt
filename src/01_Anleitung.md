@@ -1,4 +1,4 @@
-# Spiel: Auf dem spätmittelalterliche Markt
+# Spielanleitung
 
 - 1-4 Spieler
 - für die 4. Klasse
